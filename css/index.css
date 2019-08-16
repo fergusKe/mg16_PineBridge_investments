@@ -1,0 +1,414 @@
+body {
+  background: #EEE url("../images/s1/kv-bg.jpg") 50% 118px no-repeat; }
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 110px;
+  background-color: #FFF;
+  border-bottom: 8px solid #DEB124;
+  box-shadow: 3px 4px 7px rgba(0, 0, 0, 0.3);
+  z-index: 9999; }
+
+.cont {
+  position: relative;
+  width: 1200px;
+  margin: 0 auto; }
+  .cont h1 {
+    font-size: 30px;
+    color: #FFF; }
+
+.main {
+  position: relative; }
+
+.logo {
+  position: absolute;
+  top: 23px;
+  left: 30px;
+  background: url("../images/logo.png");
+  background-repeat: no-repeat;
+  width: 296px;
+  height: 65px; }
+
+.s1 {
+  margin-top: 118px; }
+  .s1 .cont {
+    height: 690px; }
+  .s1 .balloon {
+    position: absolute;
+    top: 100px;
+    left: 39px;
+    background: url("../images/s1/balloon.png");
+    background-repeat: no-repeat;
+    width: 1131px;
+    height: 526px; }
+  .s1 .cloud9453 {
+    position: absolute;
+    top: 70px;
+    left: 304px;
+    background: url("../images/s1/cloud9453.png");
+    background-repeat: no-repeat;
+    width: 565px;
+    height: 212px; }
+  .s1 .s1-title {
+    position: absolute;
+    top: 218px;
+    left: 55px;
+    background: url("../images/s1/s1-title.png");
+    background-repeat: no-repeat;
+    width: 1080px;
+    height: 362px; }
+  .s1 .s1-btn1 {
+    position: absolute;
+    top: 497px;
+    left: 227px;
+    background-image: url("../images/s1/kv-btn1.png");
+    background-repeat: no-repeat;
+    width: 353px;
+    height: 102px; }
+    .s1 .s1-btn1:hover {
+      background-position: 0px -102px; }
+    .s1 .s1-btn1.active {
+      background-position: 0px -102px; }
+  .s1 .s1-btn2 {
+    position: absolute;
+    top: 497px;
+    left: 624px;
+    background-image: url("../images/s1/kv-btn2.png");
+    background-repeat: no-repeat;
+    width: 353px;
+    height: 101px; }
+    .s1 .s1-btn2:hover {
+      background-position: 0px -101px; }
+    .s1 .s1-btn2.active {
+      background-position: 0px -101px; }
+
+.s2 .cont {
+  height: 796px; }
+.s2 .s2-title {
+  position: absolute;
+  top: 27px;
+  left: 131px;
+  background: url("../images/s2/title.png");
+  background-repeat: no-repeat;
+  width: 934px;
+  height: 95px; }
+.s2 .s2-text {
+  position: absolute;
+  top: 132px;
+  left: 196px;
+  background: url("../images/s2/text.png");
+  background-repeat: no-repeat;
+  width: 798px;
+  height: 178px; }
+.s2 .s-2-btn-main {
+  position: absolute;
+  top: 322px;
+  left: 465px;
+  background-image: url("../images/s2/btn-main.png");
+  background-repeat: no-repeat;
+  width: 271px;
+  height: 272px; }
+  .s2 .s-2-btn-main:hover {
+    background-position: 0px -272px; }
+  .s2 .s-2-btn-main.active {
+    background-position: 0px -272px; }
+.s2 .s-2-btn-9 {
+  position: absolute;
+  top: 381px;
+  left: 224px;
+  background-image: url("../images/s2/btn-9.png");
+  background-repeat: no-repeat;
+  width: 227px;
+  height: 228px; }
+  .s2 .s-2-btn-9:hover {
+    background-position: 0px -228px; }
+  .s2 .s-2-btn-9.active {
+    background-position: 0px -228px; }
+.s2 .s-2-btn-4 {
+  position: absolute;
+  top: 555px;
+  left: 383px;
+  background-image: url("../images/s2/btn-4.png");
+  background-repeat: no-repeat;
+  width: 221px;
+  height: 222px; }
+  .s2 .s-2-btn-4:hover {
+    background-position: 0px -222px; }
+  .s2 .s-2-btn-4.active {
+    background-position: 0px -222px; }
+.s2 .s-2-btn-5 {
+  position: absolute;
+  top: 555px;
+  left: 607px;
+  background-image: url("../images/s2/btn-5.png");
+  background-repeat: no-repeat;
+  width: 222px;
+  height: 223px; }
+  .s2 .s-2-btn-5:hover {
+    background-position: 0px -223px; }
+  .s2 .s-2-btn-5.active {
+    background-position: 0px -223px; }
+.s2 .s-2-btn-3 {
+  position: absolute;
+  top: 381px;
+  left: 757px;
+  background-image: url("../images/s2/btn-3.png");
+  background-repeat: no-repeat;
+  width: 229px;
+  height: 229px; }
+  .s2 .s-2-btn-3:hover {
+    background-position: 0px -229px; }
+  .s2 .s-2-btn-3.active {
+    background-position: 0px -229px; }
+
+.s3 {
+  background: url("../images/s3/s3-bg.jpg") 50% 50%; }
+  .s3 .cont {
+    height: 642px; }
+  .s3 .s3-title {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background: url("../images/s3/s3-title.png");
+    background-repeat: no-repeat;
+    width: 846px;
+    height: 247px;
+    top: 20px; }
+  .s3 .s3-text {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background: url("../images/s3/s3-text.png");
+    background-repeat: no-repeat;
+    width: 680px;
+    height: 200px;
+    top: 265px; }
+  .s3 .s3-btn {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background-image: url("../images/s3/s3-btn.png");
+    background-repeat: no-repeat;
+    width: 392px;
+    height: 90px;
+    top: 500px; }
+    .s3 .s3-btn:hover {
+      background-position: 0px -90px; }
+    .s3 .s3-btn.active {
+      background-position: 0px -90px; }
+
+.slogan-area {
+  position: relative;
+  margin-top: 100px;
+  height: 27px;
+  background-color: #18886f; }
+  .slogan-area .slogan-bg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    width: 100%;
+    height: 27px;
+    background-color: #18886f;
+    z-index: -1; }
+  .slogan-area .slogan {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto; }
+
+.s4 .slogan {
+  background: url("../images/s4/s4-slogan.png");
+  background-repeat: no-repeat;
+  width: 175px;
+  height: 174px; }
+.s4 .cont {
+  background: url("../images/s4/s4-cont.png");
+  background-repeat: no-repeat;
+  width: 1081px;
+  height: 513px; }
+  .s4 .cont .s4-btn {
+    background-image: url("../images/more-btn.png");
+    background-repeat: no-repeat;
+    width: 176px;
+    height: 56px;
+    position: absolute;
+    top: 470px;
+    left: 775px; }
+    .s4 .cont .s4-btn:hover {
+      background-position: 0px -56px; }
+    .s4 .cont .s4-btn.active {
+      background-position: 0px -56px; }
+
+.s5 .slogan {
+  background: url("../images/s5/s5-slogan.png");
+  background-repeat: no-repeat;
+  width: 175px;
+  height: 174px; }
+.s5 .c1 {
+  background: url("../images/s5/s5-cont1.png");
+  background-repeat: no-repeat;
+  width: 1066px;
+  height: 486px; }
+  .s5 .c1 .s5-btn {
+    background-image: url("../images/more-btn.png");
+    background-repeat: no-repeat;
+    width: 176px;
+    height: 56px;
+    position: absolute;
+    top: 440px;
+    left: 775px; }
+    .s5 .c1 .s5-btn:hover {
+      background-position: 0px -56px; }
+    .s5 .c1 .s5-btn.active {
+      background-position: 0px -56px; }
+.s5 .c2 {
+  background: url("../images/s5/s5-cont2.png");
+  background-repeat: no-repeat;
+  width: 1076px;
+  height: 573px;
+  margin-top: 50px; }
+  .s5 .c2 .s5-btn {
+    background-image: url("../images/more-btn.png");
+    background-repeat: no-repeat;
+    width: 176px;
+    height: 56px;
+    position: absolute;
+    top: 385px;
+    left: 775px; }
+    .s5 .c2 .s5-btn:hover {
+      background-position: 0px -56px; }
+    .s5 .c2 .s5-btn.active {
+      background-position: 0px -56px; }
+.s5 .c3 {
+  background: url("../images/s5/s5-cont3.png");
+  background-repeat: no-repeat;
+  width: 1087px;
+  height: 463px;
+  margin-top: 50px; }
+  .s5 .c3 .s5-btn {
+    background-image: url("../images/more-btn.png");
+    background-repeat: no-repeat;
+    width: 176px;
+    height: 56px;
+    position: absolute;
+    top: 420px;
+    left: 775px; }
+    .s5 .c3 .s5-btn:hover {
+      background-position: 0px -56px; }
+    .s5 .c3 .s5-btn.active {
+      background-position: 0px -56px; }
+
+.s6 .slogan {
+  background: url("../images/s6/s6-slogan.png");
+  background-repeat: no-repeat;
+  width: 175px;
+  height: 174px; }
+.s6 .cont {
+  background: url("../images/s6/s6-cont.png");
+  background-repeat: no-repeat;
+  width: 1103px;
+  height: 411px;
+  margin-top: -17px; }
+  .s6 .cont .s6-btn {
+    background-image: url("../images/more-btn.png");
+    background-repeat: no-repeat;
+    width: 176px;
+    height: 56px;
+    position: absolute;
+    top: 380px;
+    left: 775px; }
+    .s6 .cont .s6-btn:hover {
+      background-position: 0px -56px; }
+    .s6 .cont .s6-btn.active {
+      background-position: 0px -56px; }
+
+.s7 .slogan {
+  background: url("../images/s7/s7-slogan.png");
+  background-repeat: no-repeat;
+  width: 175px;
+  height: 174px; }
+.s7 .cont {
+  background: url("../images/s7/s7-cont.png");
+  background-repeat: no-repeat;
+  width: 1092px;
+  height: 473px; }
+  .s7 .cont .s7-btn {
+    background-image: url("../images/more-btn.png");
+    background-repeat: no-repeat;
+    width: 176px;
+    height: 56px;
+    position: absolute;
+    top: 345px;
+    left: 775px; }
+    .s7 .cont .s7-btn:hover {
+      background-position: 0px -56px; }
+    .s7 .cont .s7-btn.active {
+      background-position: 0px -56px; }
+
+.s8 {
+  margin-top: 60px;
+  background: url("../images/s8/s8-cont.jpg") 50% 50%; }
+  .s8 .cont {
+    height: 874px; }
+    .s8 .cont .s8-btn1 {
+      background-image: url("../images/s8/s8-btn1.png");
+      background-repeat: no-repeat;
+      width: 249px;
+      height: 114px;
+      position: absolute;
+      top: 725px;
+      left: 163px; }
+      .s8 .cont .s8-btn1:hover {
+        background-position: 0px -114px; }
+      .s8 .cont .s8-btn1.active {
+        background-position: 0px -114px; }
+    .s8 .cont .s8-btn2 {
+      background-image: url("../images/s8/s8-btn2.png");
+      background-repeat: no-repeat;
+      width: 249px;
+      height: 114px;
+      position: absolute;
+      top: 725px;
+      left: 480px; }
+      .s8 .cont .s8-btn2:hover {
+        background-position: 0px -114px; }
+      .s8 .cont .s8-btn2.active {
+        background-position: 0px -114px; }
+    .s8 .cont .s8-btn3 {
+      background-image: url("../images/s8/s8-btn3.png");
+      background-repeat: no-repeat;
+      width: 249px;
+      height: 114px;
+      position: absolute;
+      top: 725px;
+      left: 790px; }
+      .s8 .cont .s8-btn3:hover {
+        background-position: 0px -114px; }
+      .s8 .cont .s8-btn3.active {
+        background-position: 0px -114px; }
+
+.popup p {
+  font-size: 20px;
+  color: #FFF; }
+.popup .product-img li {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0; }
+.popup .product-img .p4-show {
+  top: -41px; }
+  .popup .product-img .p4-show .pop-close-btn {
+    top: 44px; }
+.popup .product-img .p5-show {
+  top: -51px; }
+  .popup .product-img .p5-show .pop-close-btn {
+    top: 54px; }
